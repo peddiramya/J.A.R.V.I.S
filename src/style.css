@@ -1,0 +1,99 @@
+body {
+  line-height: 1.4;
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 650px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#maincontent {
+  max-width: 42em;
+  margin: 15 auto;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat; 
+  background-size: 100%; 
+  background-attachment: fixed;
+}
+
+#geminiLogo {
+  height: 50px;
+  width: auto;
+}
+
+#canvas {
+  border: 1px solid #000;
+}
+
+#promptOutput {
+  margin: 20px 0;
+  width: 640px;
+  height: 100px;
+  overflow: auto;
+  font-family: sans-serif;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: normal;
+}
+
+#startButton {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+#instruction {
+  margin-top: 15px;
+}
+
+#footer {
+  line-height: 2;
+}
+
+.api-key-container {
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.api-key-container input {
+  width: 300px;
+}
+
+.btn {
+  border-radius: 40px;
+  background: linear-gradient(to bottom, #cc66ff 0%, #ff99ff 100%);
+  margin-left: 40px;
+  font-size: 16px;
+  height: 30px;
+  width: 70px;
+}
+
+.bg1 {
+  background: linear-gradient(to bottom, #00ffff 0%, #3366ff 100%);
+} 
+
+.size,
+.color {
+  font-style: italic;
+  background-color: white;
+}
+
+.box {
+  font-style: italic;
+  background-color: white;
+  width: auto; /* Adjust width as needed or set to auto */
+  padding: 5px; /* Reduced padding */
+  margin: 0 auto; /* Center align if necessary, adjust as needed */
+  display: inline-block; /* Make the select box only as wide as its content */
+}
